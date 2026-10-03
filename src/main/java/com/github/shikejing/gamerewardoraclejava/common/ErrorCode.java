@@ -1,0 +1,18 @@
+package com.github.shikejing.gamerewardoraclejava.common;
+
+/**
+ * 业务错误码。
+ */
+public enum ErrorCode {
+    VALIDATION_ERROR,
+    MATCH_NOT_FOUND,
+    REPORT_LATE,
+    REPORT_REVISION_CLOSED,
+    REPORT_ALREADY_DISTRIBUTED,
+    SETTLE_NOT_REPORTED,
+    SETTLE_ALREADY_DISTRIBUTED,
+    DISTRIBUTE_NOT_SETTLED,
+    CLAIM_NOT_DISTRIBUTED,
+    CLAIM_NOT_PARTICIPANT,
+    CONFLICT
+}
